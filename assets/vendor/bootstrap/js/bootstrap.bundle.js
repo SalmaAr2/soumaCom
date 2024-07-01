@@ -229,7 +229,7 @@
       }
       DOMContentLoadedCallbacks.push(callback);
     } else {
-      callback();
+      callback(); 
     }
   };
   const isRTL = () => document.documentElement.dir === 'rtl';
